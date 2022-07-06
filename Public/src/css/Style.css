@@ -1,0 +1,43 @@
+.bg-verde{
+    background-color: 	#0EE90;
+}
+
+.bg-degradado
+{
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(53, 108, 180, 1) 0%,rgba(97, 184, 126, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(53, 108, 180, 1) 0%, rgba(97, 184, 126, 1) 100%);
+}
+#inicio
+{
+    background-image:url("../img/img1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+
+}
+.features .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+hr{
+    height: 8px;
+    border: 7px solid white;
+}
+.bg-fondo2
+{
+    background-color: #4DD6C4;
+}
